@@ -1,0 +1,84 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-06-10 16:47:45.188382",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "group",
+  "lab_name_and_address",
+  "testnamedescription",
+  "standard",
+  "column_break_phrl",
+  "lab",
+  "tat",
+  "selling_price"
+ ],
+ "fields": [
+  {
+   "fieldname": "group",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Group"
+  },
+  {
+   "fieldname": "lab_name_and_address",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Lab Name and Address ",
+   "options": "Supplier"
+  },
+  {
+   "fieldname": "testnamedescription",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Testname/description",
+   "options": "Standard"
+  },
+  {
+   "fieldname": "standard",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Standard",
+   "options": "Standard"
+  },
+  {
+   "fieldname": "lab",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Lab "
+  },
+  {
+   "fieldname": "column_break_phrl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tat",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "TAT",
+   "options": "Standard"
+  },
+  {
+   "fieldname": "selling_price",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Selling Price"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-06-10 17:14:53.497585",
+ "modified_by": "Administrator",
+ "module": "Insta Certify",
+ "name": "Test Lab Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
